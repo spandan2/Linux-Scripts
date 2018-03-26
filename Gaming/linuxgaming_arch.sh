@@ -1,6 +1,6 @@
 echo "Hi.. Please ensure you have a working internet connection....";sleep 2;
 echo "This is Spandan Ghosh and you are about to start gaming in linux... Please enter your password when prompted..";sleep 2;
-pacman -S wine;
+sudo pacman -S wine;
 wget http://winetricks.org/winetricks;
 sudo chmod +x winetricks;
 sh winetricks directx9;
